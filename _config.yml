@@ -2,8 +2,6 @@ collections:
   authors:
     output: true
 
-baseurl: /portfolio/
-
 defaults:
   - scope:
       path: ""
