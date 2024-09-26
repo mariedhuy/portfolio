@@ -4,7 +4,10 @@ layout: default
 <h1>{{ page.title }}</h1>
 
 <img src="{{- page.capture | relative_url -}}" class="img-portfolio">
-
-{{ content }}
-
 <a href="{{- page.adresse -}}" target="_blank">Voir le site</a>
+
+<div class="post">
+  {{ content }}
+</div>
+
+<a href="/portfolio/portfolio.html">Retour</a>
