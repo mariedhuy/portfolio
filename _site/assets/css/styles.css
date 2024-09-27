@@ -9,10 +9,7 @@ body {
   flex-direction: column; }
 
 .container {
-  margin-top: 10px;
-  width: 80%;
-  margin: auto 100px;
-  padding-top: 20px; }
+  margin: auto auto; }
 
 a {
   text-decoration: none;
@@ -38,6 +35,9 @@ h2 {
   font-style: italic;
   text-align: center; }
 
+@media (max-width: 500px) {
+  .container {
+    margin-bottom: 50px; } }
 .about {
   display: flex;
   justify-content: center;
@@ -59,11 +59,13 @@ h2 {
 
 @media (max-width: 500px) {
   .about {
-    display: block; }
+    display: inline-block;
+    text-align: center; }
 
   .about img {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
     max-width: 100px; }
 
   .about-text {
@@ -85,6 +87,11 @@ h2 {
 i {
   font-size: 20px; }
 
+@media (max-width: 500px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #668893; } }
 .text-home {
   position: absolute;
   top: 45%;
@@ -117,7 +124,8 @@ span:nth-child(even) {
 
 .navbar {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  width: 100%; }
 
 .container-grid {
   display: flex;
@@ -172,3 +180,30 @@ span:nth-child(even) {
 
 .post {
   text-align: justify; }
+
+@media (max-width: 500px) {
+  .grid-portfolio {
+    grid-template-columns: 1fr; }
+
+  .img-portfolio-roll {
+    width: 100px;
+    height: 100px; }
+
+  .card-portfolio {
+    width: 100px;
+    height: 100px; }
+
+  .text-card-portfolio {
+    position: relative;
+    top: -70px;
+    letter-spacing: 1px;
+    text-align: center;
+    align-items: center; }
+
+  .img-portfolio {
+    display: inline-block;
+    text-align: center;
+    max-width: 300px; }
+
+  .post {
+    max-width: 300px; } }

@@ -27,12 +27,14 @@
 
 @media(max-width: 500px) {
   .about {
-    display: block;
+    display: inline-block;
+    text-align: center;
   }
 
   .about img {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
     max-width: 100px;
   }
 
