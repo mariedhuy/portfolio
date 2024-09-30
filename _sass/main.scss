@@ -2,7 +2,8 @@
 
 body {
   font-family: "Poppins";
-  margin: auto auto;
+  margin-right: 0px;
+  margin-left: 0px;
   background-color: #668893;
   min-height: 100vh;
   display: flex;
@@ -10,12 +11,8 @@ body {
 }
 
 .container {
-  margin-right: auto;
   margin-left: auto;
-  position: absolute;
-  top: 45%;
-  left:50%;
-  transform: translate(-50%, -50%);
+  margin-right: auto;
 }
 
 a {
@@ -50,6 +47,5 @@ h2 {
 @media(max-width: 600px) {
   .container {
     margin-bottom: 50px;
-    max-width: 100%;
   }
 }

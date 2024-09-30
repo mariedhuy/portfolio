@@ -1,19 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 body {
   font-family: "Poppins";
-  margin: auto auto;
+  margin-right: 0px;
+  margin-left: 0px;
   background-color: #668893;
   min-height: 100vh;
   display: flex;
   flex-direction: column; }
 
 .container {
-  margin-right: auto;
   margin-left: auto;
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
+  margin-right: auto; }
 
 a {
   text-decoration: none;
@@ -41,12 +38,12 @@ h2 {
 
 @media (max-width: 600px) {
   .container {
-    margin-bottom: 50px;
-    max-width: 100%; } }
+    margin-bottom: 50px; } }
 .about {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-top: 100px; }
   .about img {
     max-width: 200px;
     border-radius: 15px;
@@ -64,8 +61,7 @@ h2 {
 @media (max-width: 600px) {
   .about {
     display: inline-block;
-    text-align: center;
-    margin-top: 300px; }
+    text-align: center; }
 
   .about img {
     margin-left: auto;
@@ -149,7 +145,11 @@ span:nth-child(even) {
 .container-grid {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 .grid-portfolio {
   display: grid;
@@ -194,7 +194,8 @@ span:nth-child(even) {
   width: 600px; }
 
 .post {
-  text-align: justify; }
+  text-align: justify;
+  width: 600px; }
 
 @media (max-width: 600px) {
   .grid-portfolio {
