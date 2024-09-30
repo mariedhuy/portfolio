@@ -17,10 +17,11 @@ i {
 }
 
 
-@media(max-width: 500px) {
+@media(max-width: 600px) {
   .footer {
     position: fixed;
     bottom: 0;
     background-color: #668893;
+    font-size: 12px;
   }
 }

@@ -34,3 +34,22 @@ span:nth-child(odd) {
 span:nth-child(even) {
   z-index: 9;
 }
+
+
+@media(max-width: 600px) {
+  .text-home span {
+    font-size: 35px;
+    position: relative;
+    letter-spacing: 10px;
+  }
+
+  .ligne {
+    width: 260px;
+    height: 2px;
+    background: #a1c2cd;
+    border-radius: 15px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 10;
+  }
+}
