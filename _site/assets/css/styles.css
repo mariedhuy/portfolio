@@ -8,7 +8,12 @@ body {
   flex-direction: column; }
 
 .container {
-  margin: auto auto; }
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 a {
   text-decoration: none;
@@ -36,12 +41,12 @@ h2 {
 
 @media (max-width: 600px) {
   .container {
-    margin-bottom: 50px; } }
+    margin-bottom: 50px;
+    max-width: 100%; } }
 .about {
   display: flex;
   justify-content: center;
-  align-items: center;
-  max-width: 100%; }
+  align-items: center; }
   .about img {
     max-width: 200px;
     border-radius: 15px;
@@ -59,21 +64,22 @@ h2 {
 @media (max-width: 600px) {
   .about {
     display: inline-block;
-    text-align: center; }
+    text-align: center;
+    margin-top: 300px; }
 
   .about img {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
     max-width: 100px; }
 
   .about-text {
-    max-width: 250px;
+    max-width: 300px;
     margin-left: 0px; }
 
   .services {
-    max-width: 250px;
-    text-align: justify; } }
+    max-width: 300px;
+    text-align: justify;
+    margin-bottom: 50px; } }
 .footer {
   margin-top: auto; }
 
@@ -143,11 +149,7 @@ span:nth-child(even) {
 .container-grid {
   display: flex;
   justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
+  align-items: center; }
 
 .grid-portfolio {
   display: grid;

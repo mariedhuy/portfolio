@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 100%;
 
   img {
     max-width : 200px;
@@ -29,22 +28,23 @@
   .about {
     display: inline-block;
     text-align: center;
+    margin-top: 300px;
   }
 
   .about img {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
     max-width: 100px;
   }
 
   .about-text {
-    max-width: 250px;
+    max-width: 300px;
     margin-left: 0px;
   }
 
   .services {
-    max-width: 250px;
+    max-width: 300px;
     text-align: justify;
+    margin-bottom: 50px;
   }
 }
