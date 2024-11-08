@@ -6,7 +6,7 @@ title: Coach Léon
 adresse: https://www.coach-leon.me/
 ---
 
-<h2><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i> Mission</h2>
+<h2><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i> Projet</h2>
 Lors de la fin de ma formation au <a href="https://www.lewagon.com/fr/" target="_blank">Wagon</a>, nous devions développer en groupe de 4 personnes, un projet de fin de formation.
 
 Coach Léon est une application web au format mobile permettant de générer un plan alimentaire et sportif en fonction des objectifs de l'utilisateur.
