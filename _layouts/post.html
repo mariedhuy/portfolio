@@ -3,11 +3,11 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 
-<img src="{{- page.capture | relative_url -}}" class="img-portfolio"><br>
+<img src="{{- page.capture | relative_url -}}" class="img-portfolio" alt="Capture d'écran {{ page.title }}"><br>
 <a href="{{- page.adresse -}}" target="_blank">Voir le site</a>
 
 <div class="post">
   {{ content }}
 </div>
 
-<a href="/portfolio/portfolio.html">Retour</a>
+<a href="/portfolio/portfolio.html"><i class="fa-solid fa-arrow-left"></i></a>

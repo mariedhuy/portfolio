@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 body {
   font-family: "Poppins";
@@ -8,26 +9,29 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  margin: 10px
 }
 
 .container {
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
   text-decoration: none;
-  color: #a1c2cd
+  color: #a1c2cd;
 }
 
 a:hover {
-  color: #415d67;
+  color: black;
   font-weight: bold;
   text-decoration: none;
 }
 
 .current {
-  color: #415d67;
+  color: black;
 }
 
 h1 {
@@ -40,8 +44,10 @@ h1 {
 h2 {
   color: #a1c2cd;
   font-size: 16px;
-  font-style: italic;
-  text-align: center;
+
+  i {
+    font-size: 12px;
+  }
 }
 
 @media(max-width: 600px) {
