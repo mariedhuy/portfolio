@@ -3,4 +3,11 @@
 .navbar {
   display: flex;
   justify-content: space-around;
+
+
+  a {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+
 }
