@@ -6,7 +6,7 @@ title: Portfolio
 adresse: https://mariedhuy.github.io/portfolio/
 ---
 
-<h2><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i> Mission</h2>
+<h2><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i> Projet</h2>
 Je souhaitais réaliser un site web permettant de répertorier les projets sur lesquels j'ai travaillé et qui sont terminés aujourd'hui. Ce portfolio est donc mon site web personnel.
 
 Je souhaitais une solution simple, peu lourde, et qui me permette de coder. Je me suis donc tournée vers <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
